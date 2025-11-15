@@ -1,1 +1,22 @@
+Week 2 Log – Infrastructure Setup & Data Analysis
+
+This week focused on establishing a consistent working environment and gaining a deeper understanding of the dataset and target model architectures.
+
+1. Environment Setup
+- Standardized the development environment across all systems to prevent version conflicts.
+- Ensured alignment of critical dependencies, including PyTorch/TensorFlow versions and CUDA configurations.
+- Verified that all team members can run baseline scripts without compatibility issues.
+
+2. Dataset Acquisition & Exploratory Data Analysis
+- Integrated the custom 37-category pet dataset (~7,400 total images) into the project workspace.
+- Validated the completeness of annotations: breed labels, head ROI, and trimap segmentation masks.
+- Performed initial EDA to confirm high variability in pose, lighting, and scale, reinforcing the need for strong augmentation during training.
+
+3. Model Architecture Review
+- Reviewed the four selected SOTA CNN architectures: ResNet, ConvNeXt, EfficientNet-B0, and MobileNet.
+- Analyzed their core design principles, including residual connections, modernized convolutional blocks, compound scaling, and depthwise separable convolutions.
+- Outlined the required modifications for adapting each model’s classification head to output 37 classes.
+
+Summary:
+The project infrastructure is now stable and fully synchronized across machines. The dataset has been verified and analyzed, and architectural requirements for each model are clearly defined. The project is ready to progress into preprocessing and initial model training in Week 3.
 
