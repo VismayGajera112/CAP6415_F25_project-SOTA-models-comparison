@@ -1,0 +1,19 @@
+torch
+torchvision
+torchaudio
+numpy
+pillow
+matplotlib
+scikit-learn
+tqdm
+pandas
+
+# Optional but recommended for training & logging
+tensorboard
+
+# For image augmentations
+albumentations
+opencv-python
+
+# If using Jupyter notebooks
+jupyter
