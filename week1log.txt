@@ -1,1 +1,22 @@
+Project: SOTA Models Comparison (Large Networks)
+
+Dataset:
+We are using a custom 37-category pet dataset with roughly 200 images per class. 
+The images contain large variations in scale, pose, and lighting conditions. 
+Each image is accompanied by detailed ground-truth annotations including:
+- Breed label
+- Head region-of-interest (ROI)
+- Pixel-level trimap segmentation
+
+This dataset supports both classification and segmentation tasks.
+
+Models Used:
+For this project, we are comparing several state-of-the-art convolutional neural network architectures:
+
+1. ResNet
+2. ConvNeXt
+3. EfficientNet-B0
+4. MobileNet
+
+These models are trained and evaluated on the same dataset to analyze performance differences across architectures.
 
