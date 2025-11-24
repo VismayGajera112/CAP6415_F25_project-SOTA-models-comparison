@@ -1,0 +1,26 @@
+Week 3 Log – Basic Model Implementation & Initial Training
+
+This week focused on implementing the selected architectures, building a reliable training pipeline, and running short training cycles to validate end-to-end functionality.
+
+1. Model Implementation
+- Integrated the four selected SOTA CNN architectures (ResNet, ConvNeXt, EfficientNet-B0, MobileNet) into the project codebase.
+- Adapted all classification heads to support 37 output classes for the pet dataset.
+- Standardized weight initialization and ensured each model met the project constraint of being under ~50 layers.
+- Verified successful model instantiation, parameter counts, and compatibility with the unified training script.
+
+2. Training Pipeline Setup
+- Developed modular components for data loading, preprocessing, model training, and validation evaluation.
+- Implemented loss functions, optimizers, learning-rate scheduling, and checkpoint saving.
+- Added logging support for monitoring training and validation metrics during runs.
+- Confirmed consistent performance across devices, including GPU acceleration and reproducibility through fixed seeds.
+
+3. Initial Training Runs (Few Epochs)
+- Conducted short training runs (2–5 epochs per model) to ensure overall pipeline stability.
+- Validated gradient flow, loss reduction patterns, and absence of numerical issues.
+- Assessed per-epoch training time to establish baseline compute costs between architectures.
+
+4. Early Observations
+- All four models trained without runtime errors or convergence issues.
+- Minor accuracy improvements across the initial epochs confirmed correct data processing and model behavior.
+- Efficiency differences between architectures began to appear in early timing logs.
+- Early results indicate that further regularization and augmentation will likely be necessary for stable full-length training.
