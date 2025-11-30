@@ -1,0 +1,21 @@
+Week 4 Log – Preliminary Results
+
+This week focused on completing full training cycles for all selected models, analyzing early quantitative results, and identifying trends that will guide deeper tuning in the next phase.
+
+1. Full Training Execution
+- Trained all four architectures (ResNet, ConvNeXt, EfficientNet-B0, MobileNet) for the full planned number of epochs.
+- Applied the finalized data augmentation pipeline, including random cropping, flips and color perturbations.
+- Tuned base hyperparameters to ensure stable optimization across models.
+- Generated checkpoints and validation logs at each epoch for later comparison.
+
+2. Baseline Evaluation
+- Collected initial accuracy, loss curves, and epoch-wise validation performance for each architecture.
+- Observed steady convergence in all models, with EfficientNet-B0 and ConvNeXt showing comparatively faster early improvements.
+- Measured training time per epoch to quantify computational differences across architectures.
+- Verified that all models reached competitive baseline accuracy levels suitable for further refinement.
+
+3. Preliminary Findings
+- Modern architectures (ConvNeXt and EfficientNet-B0) demonstrated stronger early generalization on the pet dataset.
+- MobileNet remained the most computationally efficient, confirming its advantage in lightweight scenarios.
+- Identified mild overfitting tendencies in later epochs for some models, suggesting the need for additional regularization.
+- Detected consistent misclassification patterns in specific classes, indicating potential class imbalance or challenging visual categories.
