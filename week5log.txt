@@ -1,0 +1,26 @@
+Week 5 Log – Final Training & Performance Analysis
+
+This week focused on completing the full set of experimental evaluations, analyzing the collected results, and preparing the final deliverables required for project submission.
+
+1. Final Training Runs
+- Executed complete and finalized training schedules for all four architectures (ResNet, ConvNeXt, EfficientNet-B0, MobileNet).
+- Ensured consistent training configurations across models to enable fair comparison.
+- Integrated refined augmentation and regularization settings based on Week 4 findings.
+- Saved the final model checkpoints and associated training metadata for documentation and reproducibility.
+
+2. Performance Metrics Collection
+- Compiled the full set of evaluation metrics including top 1 accuracy, loss values, per class performance and confusion matrices.
+- Measured computational characteristics such as training time per epoch, total training time and inference latency.
+- Collected metrics across multiple runs to reduce variance and ensure reliability of results.
+- Exported all performance logs, plots and numerical summaries for inclusion in the final report.
+
+3. Comparative Analysis
+- Conducted a detailed comparison of all four models based on accuracy, efficiency and generalization behavior.
+- Identified that ConvNeXt and EfficientNet-B0 delivered the strongest overall performance while MobileNet remained the most lightweight option.
+- Analyzed misclassification trends and class wise error distributions to understand model weaknesses.
+- Summarized strengths and limitations of each architecture to support final conclusions.
+
+4. Final Deliverables & Video Recording
+- Recorded and finalized the video as required for the project submission.
+- Ensured all materials—code, logs, plots, analysis and documentation—were consolidated and ready for submission.
+- Completed final checks on reproducibility.
