@@ -1,0 +1,33 @@
+{
+  "timestamp": "20251207_164205",
+  "models": {
+    "ResNet-34": {
+      "weights_path": "saved_models/weights/ResNet_34_20251207_164205.pth",
+      "full_model_path": "saved_models/models/ResNet_34_full_20251207_164205.pth",
+      "metadata_path": "saved_models/metadata/ResNet_34_metadata_20251207_164205.json",
+      "model_class": "ResNet34Model",
+      "saved_successfully": true
+    },
+    "EfficientNet-B0": {
+      "weights_path": "saved_models/weights/EfficientNet_B0_20251207_164205.pth",
+      "full_model_path": "saved_models/models/EfficientNet_B0_full_20251207_164205.pth",
+      "metadata_path": "saved_models/metadata/EfficientNet_B0_metadata_20251207_164205.json",
+      "model_class": "EfficientNetB0Model",
+      "saved_successfully": true
+    },
+    "ConvNeXt-Tiny": {
+      "weights_path": "saved_models/weights/ConvNeXt_Tiny_20251207_164205.pth",
+      "full_model_path": "saved_models/models/ConvNeXt_Tiny_full_20251207_164205.pth",
+      "metadata_path": "saved_models/metadata/ConvNeXt_Tiny_metadata_20251207_164205.json",
+      "model_class": "ConvNeXtModel",
+      "saved_successfully": true
+    },
+    "MobileNet-V3-Large": {
+      "weights_path": "saved_models/weights/MobileNet_V3_Large_20251207_164205.pth",
+      "full_model_path": "saved_models/models/MobileNet_V3_Large_full_20251207_164205.pth",
+      "metadata_path": "saved_models/metadata/MobileNet_V3_Large_metadata_20251207_164205.json",
+      "model_class": "MobileNetV3Model",
+      "saved_successfully": true
+    }
+  }
+}
