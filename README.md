@@ -92,18 +92,27 @@ git clone [https://github.com/VismayGajera112/CAP6415_F25_project-SOTA-models-co
 cd CAP6415_F25_project-SOTA-models-comparison
 ```
 
-### 2. Install Dependencies
+### 2. Create virtual environment and activate it
+```bash
+# for windows:
+python -m venv .venv
+.venv\Scripts\activate
+
+#for macos/Linux
+python3 -m venv .venv
+source ./.venv/bin/activate
+```
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Comparison
+### 4. Run the Comparison
 To download the dataset and run the training/benchmarking pipeline:
 
-```bash
-# Run the Jupyter Notebook directly or convert to script
-python run_comparison.py 
-# OR open the notebook
+```bash 
+# open the notebook and click on Run all the cells
 jupyter notebook SOTA_Models_Comparison.ipynb
 ```
 
