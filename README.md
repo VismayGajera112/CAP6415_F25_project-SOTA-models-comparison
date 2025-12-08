@@ -88,7 +88,7 @@ After training over 10-15 epochs, the models yielded the following performance m
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/VismayGajera112/CAP6415_F25_project-SOTA-models-comparison.git](https://github.com/VismayGajera112/CAP6415_F25_project-SOTA-models-comparison.git)
+git clone https://github.com/VismayGajera112/CAP6415_F25_project-SOTA-models-comparison.git
 cd CAP6415_F25_project-SOTA-models-comparison
 ```
 
