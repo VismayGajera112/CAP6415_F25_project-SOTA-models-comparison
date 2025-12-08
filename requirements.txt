@@ -7,6 +7,7 @@ matplotlib
 scikit-learn
 tqdm
 pandas
+seaborn
 
 # Optional but recommended for training & logging
 tensorboard
